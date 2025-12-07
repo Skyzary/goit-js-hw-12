@@ -7,11 +7,9 @@
     "dev": "vite",
     "build": "vite build --base=/goit-js-hw-12/",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
